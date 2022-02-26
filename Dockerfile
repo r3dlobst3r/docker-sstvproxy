@@ -11,7 +11,7 @@ RUN \
 		jq \
 		git \
 		curl && \
-		py3-pip
+		py3-pip \
 	pip3 install flask requests 
 
 # add local files

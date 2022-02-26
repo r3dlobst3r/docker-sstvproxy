@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.7
+FROM arm64v8/alpine:latest
 
 LABEL maintainer="stokkes@gmail.com"
 

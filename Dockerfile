@@ -10,8 +10,8 @@ RUN \
 		ffmpeg \
 		jq \
 		git \
-		curl && \
-		py3-pip \
+		curl \
+		cmd:pip3 && \
 	pip3 install flask requests 
 
 # add local files

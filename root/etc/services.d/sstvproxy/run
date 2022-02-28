@@ -3,4 +3,4 @@
 umask 022
 
 exec \
-	s6-setuidgid abc /usr/bin/python3 /app/sstvproxy/sstvProxy.py
+	s6-setuidgid abc /usr/bin/python3 /config/sstvproxy/sstvProxy.py

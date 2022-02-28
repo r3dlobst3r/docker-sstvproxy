@@ -1,6 +1,6 @@
-FROM arm64v8/alpine:latest
+FROM --platform=linux/arm64/v8 lsiobase/alpine:3.15
 
-LABEL maintainer="stokkes@gmail.com"
+LABEL maintainer="r3dlobst3r"
 
 RUN \
 	apk update && \
